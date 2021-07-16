@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apparels & Souvenirs</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://apparelsandsouvenirs.com/ion?
+	family=Material+Icons"
+  {
+<style>
+	<head>
+		<body>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCX8y9S4FIjnthOIGE06YPGqVySRBXOcHo",
+    authDomain: "apparels-and-souvenirs.firebaseapp.com",
+    projectId: "apparels-and-souvenirs",
+    storageBucket: "apparels-and-souvenirs.appspot.com",
+    messagingSenderId: "888162580557",
+    appId: "1:888162580557:web:1cdd70ce42cd48aae54404",
+    measurementId: "G-VB2SHMGTZ0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+			<header>
+				<div class="logo-section">
+          <a href="index.html"><img src="/Users/evannisbett/Downloads/IMG_8324-min.jpg" style="width:300px; height:350px;" />
+           <img src="/Users/evannisbett/IMG_8320.jpg" style="width:300px; height:350px;" /> 
+            <img src="/Users/evannisbett/Pictures/IMG_E9332.jpg" style="width:300px; height:350px;" />
+            <img src="/Users/evannisbett/Pictures/IMG_E9331.jpg" style="width:300px; height:350px;" />
+          
+          </a>
+          <p>Hello World. We are hailing from St. Kitts and Nevis</p>
+          <form>
+            <input type="search" name="search" placeholder="search" />
+            <input type="submit" value="search" class="material-icons" />
+            <div class="search-autocomplete display-none">
+              <ul>
+                <li>leather, craft, soaps, oils, essential oils, honey, teabags</li>
+              </ul>
+            </div>
+          </form>
+          <p><a href="mailto:evannisbett@gmail.com"> Contact
+              Us <span class="material-icons"></span></a></p>
+          </div>
+          </header>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li onmouseover="mouseover_on_nav_item(this)" onmouseout="mouseout_on_nav_item(this)">
+              <li><a href="team.html">Our team</a>
+              <li>
+                <div class="nav-submenu" onmouseover="mouseover_on_nav_item(this)">
+                  <ul>
+                    <li><span class="material-icons-outlined"></span><a href="#">Evan Nisbett</a></li>
+                    <li><span class="material-icons-outlined"></span><a href="#">Shevane'e Nisbett</a></li>
+                    <li><span class="material-icons-outlined"></span><a href="#">Clevis Nisbett</a></li>
+                    <li><span class="material-icons-outlined"></span><a href="#">Khalin Nisbett</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li onmouseover="mouseover_on_nav_item(this)" onmouseout="mouseout_on_nav_item(this)">
+              <li><a href="#">Projects</a>
+              <li>
+                <div class="nav-submenu" onmouseover="mouseover_on_nav_item(this)">
+                  <ul>
+                    <li><span class="material-icons-outlined">task</span><a href="http://www.apparels&souvenirs.com</a></li>
+                        <li><span class=" material-icons-outlined">task</span><a <li><span
+                            class="material-icons-outlined">task</span><a href="project.html"></a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </nav>
+          <maim>
+            <div class="main-image slider">
+              <img class="slider">
+            </div>
+            <img src="/Users/evannisbett/Downloads/IMG_9416-min.jpg" style="width:250px; height:300px;" />
+            <img src="/Users/evannisbett/Downloads/IMG_8842-min.jpg" style="width:250px; height:300px;" />
+            <img src="/Users/evannisbett/Downloads/IMG_9393-min.jpg" style="width:250px; height:300px;" />
+            <img src="/Users/evannisbett/Downloads/IMG_8839-min.jpg" style="width:250px; height:300px;" />
+            <img src="/Users/evannisbett/Downloads/IMG_8324-min.jpg" style="width:250px; height:300px;" />
+            <button class="slider-prev-btn" onclick="goPrevImage()"><</button>
+            <button class="slider-next-btn" onclick="goNextImage()">></button>
+        </div>
+                </div class="main-content">
+                <section>
+                  <article>
+                    <h2>What are the products</h2>
+                    <p>
+                      The products are: all locally hand made/crafted leather products, essential oils (made from local plants and
+                      herbs), infused oils (infused with local leaves, grass and herbs), cold-pressed coconut oil, aloe vera soap,
+                      teabags (made from local bushes, grass and herbs), hot sause and locally produced honey.
+                    </p>
+                  </article>
+                  </article>
+                  <h2>Why I love handcrafting<h2>
+                      <p>
+                        Because handcrafting is a talented skill that I was born with
+                      </p>
+                      </article>
+                </section>
+                <aside>
+                  <h3>The team</h3>
+                  <ul>
+                    <li>Evan Nisbett</li>
+                    <li>Shevane'e Nisbett</li>
+                    <li>Clevis Nisbett</li>
+                    <li>Khalin Nisbett</li>
+                  </ul>
+                </aside>
+                </div>
+                </main>
+                <footer>
+                  <p>Copyright 2021 by Evan Nisbett. All rights reserved.</p>
+                </footer>
+                </body>
+                <script>
+                  function mouseover_on_nav_item(item) {
+                    if (item.querySelector('.nav-submenu')) {
+                      item.querySelector('.nav-submenu').setAttribute('style', 'display:block');
+                    }
+                  }
+
+                  function mouseout_on_nav_item(item) {
+                    item.querySelector('.nav-submenu').setAttribute('style', 'display:none');
+                  }
+
+                  let searchInputBox = document.querySelector('input[name="search"]');
+                  let searchAutoCompleteBox = document.querySelector('.search-autocomplete');
+                  searchInputBox.onkeyup = function () {
+                    if (searchInputBox.value) {
+                      searchAutoCompleteBox.setAttribute('style', 'display:block');
+                    } else {
+                      searchAutoCompleteBox.setAttribute('style', 'display:none');
+                    }
+                  }
+
+                  searchInputBox.onblur = function () {
+                    searchAutoCompleteBox.setAttribute('style', 'display:none');
+                  }
+
+                  let sliderCurrentIndex = 0;
+                  let sliderItems = document.querySelectorAll('.slider-item')
+                  let autoSliderChangeFlag = false;
+
+                  function sliderChange(sliderIndex, prevIndex) {
+                    for (let index = 0; index < sliderItems.length; index = index + 1) {
+                      sliderItems[index].classList.remove("slider-item-scrollin", "slider-item-scrollout");
+                      sliderItems[index].setAttribute('style', 'display:none');
+                    }
+
+                    if (prevIndex !== undefined) {
+                      sliderItems[prevIndex].setAttribute('style', 'display:block');
+                      sliderItems[prevIndex].classList.add("slider-item-scrollout");
+                    }
+                    sliderItems[sliderIndex].setAttribute('style', 'display:block');
+                    sliderItems[sliderIndex].classList.add("slider-item-scrollin");
+                    sliderCurrentIndex = sliderIndex;
+                  }
+
+                  function bingo() {
+                    let bingoButton = document.querySelector('.slider-bingo')
+                    if (bingoButton.innerText == "SPIN") {
+                      autoSliderChangeFlag = true;
+                      bingoButton.innerText = "STOP"
+                      bingoButton.classList.add("stop");
+                      autoSliderChange(0)
+                    } else {
+                      autoSliderChangeFlag = false;
+                      bingoButton.innerText = "SPIN"
+                      bingoButton.classList.remove("stop");
+                    }
+                  }
+
+                  function autoSliderChange(index) {
+                    if (autoSliderChangeFlag) {
+                      let prevIndex = 0;
+                      if (index == 0) {
+                        prevIndex = sliderItems.length - 1;
+                      } else {
+                        prevIndex = index - 1;
+                      }
+                      sliderChange(index, prevIndex);
+                      if (index >= sliderItems.length - 1) {
+                        index = 0
+                      } else {
+                        index += 1;
+                      }
+                      setTimeout(autoSliderChange.bind(this, index), 200)
+                    }
+                  }
+
+                  function prevImage() {
+                    if (sliderCurrentIndex == 0) {
+                      sliderChange(sliderItems.length - 1, 0);
+                    } else {
+                      sliderChange(sliderCurrentIndex - 1, sliderCurrentIndex);
+                    }
+                  }
+
+                  function nextImage() {
+                    if (sliderCurrentIndex == (sliderItems.length - 1)) {
+                      sliderChange(0, sliderItems.length - 1);
+                    } else {
+                      sliderChange(sliderCurrentIndex + 1, sliderCurrentIndex);
+                    }
+                  }
+
+                  sliderChange(sliderCurrentIndex + 1, sliderCurrentIndex);
+                </script>
+          
+                </html>
